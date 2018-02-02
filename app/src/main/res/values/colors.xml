@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="colorBlack">#000000</color>
+    <color name="colorWhite">#ffffff</color>
+
+    <color name="red">#ff0000</color>
+
+    <color name="red2">#ffff0000</color>
+
+    <color name="colorBlue">#1296db</color>
+    <color name="colorOrange">#e06f60</color>
+    <color name="colorGray1">#f4f4f4</color>
+
+    <color name="transColorGray1">#7ff4f4f4</color>
+
+    <color name="titleBlack">#020934</color>
+    <!-- 半透明 -->
+    <color name="titleTransBlack">#7f020934</color>
+
+    <color name="toastTransBlack">#7f020934</color>
+
+    <color name="consoleTransBlack">#66020934</color>
+
+
+    <color name="colorGray2">#cdcdcd</color>
+    <color name="transcolorGray2">#7fcdcdcd</color>
+    <color name="contentBlack">#2c2c2c</color>
+
+    <color name="transWhite">#e6e6e6</color>
+
+    <color name="colorGray3">#707070</color>
+
+
+    <color name="normal_btn_bg">#e06f60</color>
+    <color name="selected_btn_bg">#B65E53</color>
+
+    <color name="layout_normal_bg">#ffffff</color>
+    <color name="layout_selected_bg">#f4f4f4</color>
+
+
+    <color name="aphla_black">#e0000000</color>
+
+    <color name="dropHeader1">#1296db</color>
+    <color name="dropHeader2">#cdcdcd</color>
+    <color name="dropHeader3">#020934</color>
+
+</resources>

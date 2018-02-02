@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical" >
+    <LinearLayout android:id="@+id/bottom"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true">
+        <Button
+            android:id="@+id/btn_test1"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:text="@string/btn1_start"
+            android:layout_weight="1"
+            android:visibility="gone"
+            >
+        </Button>
+        <Button
+            android:id="@+id/btn_test2"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:text="@string/btn2_start"
+            android:layout_weight="1"
+            android:visibility="gone"
+            >
+        </Button>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Log"
+        android:textColor="#FF0000"
+        android:textSize="14.5sp"></TextView>
+
+    <ScrollView
+        android:id="@+id/logView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/log"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" />
+    </ScrollView>
+
+
+    <EditText
+        android:id="@+id/_logText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+</LinearLayout>
